@@ -1,0 +1,26 @@
+.s1{background-color:darkblue;}
+nav{text-align:right; padding:20px;}
+nav a{color:white; padding:10px; font-size:20px; text-decoration:none;} 
+nav a:hover{background-color:green;}
+	p{padding-top:10px;}
+	
+	
+.img-parent
+{
+text-align: center; padding-top:25px;	
+}
+span{color:yellow;}  
+h3{color:black;}
+.color{color:red;}
+.align{text-align:center;}
+body{background-color:lightgrey;} 
+.s1{border-radius:25px;}    
+	p{padding-left:25px;}
+.h4{text-align:center; color:darkblue;}
+h4{text-align:center;}
+footer{text-align:center; background-color:white; padding:25px; color:darkred; font-size:20px;}
+.education{text-align:center;}
+.basic{font-size:25; text-align:left; padding-left:400px; color:#0676ff;}
+.or{color:yellow;}
+.rule{color:black;}
+.nd2{color:blue;}
