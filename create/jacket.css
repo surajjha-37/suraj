@@ -1,0 +1,214 @@
+body {
+  font-family: roboto, sans-serif;
+  background-image: url("jacket\ background.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+ul,
+.icon-name {
+  display: flex;
+  gap: 25px;
+  margin-right: 35px;
+}
+@media (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100%;
+  }
+}
+li {
+  list-style: none;
+}
+li a:hover {
+  border-bottom: 4px solid rgb(248, 4, 175);
+}
+
+li a,
+.profile {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.726);
+  font-weight: bold;
+}
+sup {
+  font-size: 10px;
+  font-weight: bolder;
+  color: purple;
+  animation: 3s color ease-in-out;
+}
+@keyframes color {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: purple;
+  }
+}
+.user {
+  height: 20px;
+  width: 20px;
+}
+.like {
+  height: 20px;
+  width: 20px;
+}
+.bag {
+  height: 20px;
+  width: 20px;
+}
+.icon-1 {
+  display: flex;
+  width: 200px;
+  gap: 55px;
+  justify-content: center;
+}
+.input input {
+  height: 45px;
+  background-color: whitesmoke;
+  border-style: none;
+  width: 500px;
+}
+.input input:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
+}
+
+.icon-name a:hover {
+  color: rgb(227, 10, 209);
+}
+
+.logo-1 {
+  height: 50px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+.header {
+  margin-top: -15px;
+  margin-left: -15px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.77);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+}
+.main {
+  text-align: center;
+  display: flex;
+  gap: 35px;
+}
+.firstdiv {
+  background-color: white;
+}
+.seconddiv {
+  background-color: white;
+}
+
+.first {
+  height: 300px;
+  width: 250px;
+}
+.color {
+  background-color: antiquewhite;
+  padding-left: 30px;
+}
+button {
+  width: 320px;
+  height: 35px;
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+button:hover {
+  color: darkred;
+  background-color: rgb(63, 125, 212);
+}
+.icon {
+  color: red;
+  float: right;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 40px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+.cardone {
+  background-color: aliceblue;
+  max-width: 320px;
+
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.name {
+  margin-top: -15px;
+  text-align: left;
+  margin-left: 10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.basic {
+  text-align: left;
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+  color: darkred;
+  text-align: left;
+}
+
+.shopping {
+  color: darkred;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.zone {
+  color: rgb(72, 0, 255);
+}
+.footer {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  margin-top: 80px;
+  color: rgba(0, 0, 0, 0.821);
+  justify-content: center;
+  gap: 25px;
+}
+.footer-p {
+  color: rgb(99, 97, 97);
+  font-size: small;
+}
+.footer-2-in {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+.footer-3-img {
+  height: 30px;
+  width: 30px;
+}
+.icon-img {
+  margin-top: 15px;
+}
+.footer-img-icon {
+  margin-top: 30px;
+}

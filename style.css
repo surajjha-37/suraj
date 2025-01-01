@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia&family=Yatra+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Sofia&family=Yatra+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px auto 400px;
+}
+.logo-1 {
+  height: 50px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+.header {
+  box-shadow: 0px 5px 8px rgba(175, 173, 173, 0.427);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.main {
+  background-color: white;
+}
+ul,
+.icon-name {
+  display: flex;
+  gap: 25px;
+  margin-right: 35px;
+}
+li {
+  list-style: none;
+}
+li a:hover {
+  border-bottom: 4px solid rgb(248, 4, 175);
+}
+
+li a,
+.profile {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.726);
+  font-weight: bold;
+}
+sup {
+  font-size: 10px;
+  font-weight: bolder;
+  color: purple;
+  animation: 3s color ease-in-out;
+}
+@keyframes color {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: purple;
+  }
+}
+.input input {
+  height: 45px;
+  background-color: whitesmoke;
+  border-style: none;
+  width: 500px;
+}
+.input input:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
+}
+
+.icon-name a:hover {
+  color: rgb(227, 10, 209);
+}
+
+.section-2-in {
+  display: flex;
+
+  margin-bottom: -10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: center;
+  margin-top: -10px;
+  gap: 85px;
+  height: 230px;
+  max-width: 100%;
+}
+
+.batch {
+  width: 90%;
+  height: 100px;
+  margin-right: -25px;
+  margin-top: 60px;
+}
+
+.icon {
+  display: flex;
+  width: 200px;
+  gap: 55px;
+  justify-content: center;
+}
+.user {
+  height: 20px;
+  width: 20px;
+}
+.like {
+  height: 20px;
+  width: 20px;
+}
+.bag {
+  height: 20px;
+  width: 20px;
+}
+@media (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+  .input input {
+    width: 250px;
+  }
+  .login {
+    margin-left: 25px;
+  }
+  .slideimg {
+    display: none;
+  }
+  .slideimg-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2-in {
+    display: none;
+  }
+}
+.section-3 {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -25px;
+}
+.slideimg {
+  width: 90%;
+  height: 430px;
+  margin-top: -35px;
+}
+.slideimg-2 {
+  width: 800px;
+  margin-left: -65px;
+  height: 100px;
+}
+.slideimg-3 {
+  width: 650px;
+  height: 100px;
+}
+.slideimg-flex {
+  display: flex;
+  margin-top: 15px;
+  height: 150px;
+  justify-content: center;
+}
+.text {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coupons {
+  font-size: 45px;
+  font-family: "Yatra One", serif;
+
+  background: linear-gradient(rgb(222, 4, 251), blue);
+  background-clip: text;
+  color: transparent;
+}
+
+.flat-1 {
+  display: flex;
+  margin-top: 35px;
+  gap: 35px;
+}
+.flat-1-in {
+  width: 600px;
+}
+.deals {
+  background-image: url("deals.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: rgb(130, 4, 152);
+  margin-top: 50px;
+  height: 110px;
+  width: 90%;
+}
+.deals-in {
+  font-family: "Henny Penny", serif;
+  font-size: 25px;
+  max-width: 50px;
+  font-weight: bolder;
+}
+.deals-p {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: -5px;
+}
+.shop {
+  font-size: 45px;
+  color: purple;
+}
+.section-6 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divs-in {
+  display: flex;
+  gap: 25px;
+}
+.divs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  margin-top: 30px;
+}
+.div-1-img {
+  height: 180px;
+  margin-top: 10px;
+  width: 180px;
+}
+.jacket {
+  text-decoration: none;
+}
+.div-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  background-color: rgb(62, 4, 101);
+  width: 200px;
+}
+.div-wear {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wear {
+  font-size: 20px;
+  color: rgb(233, 227, 227);
+}
+.wear-heading {
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+.section-7 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.download {
+  margin-top: 50px;
+  width: 80%;
+}
+.footer {
+  display: flex;
+  width: 80%;
+  margin-top: 80px;
+  color: rgba(0, 0, 0, 0.821);
+  justify-content: center;
+  gap: 25px;
+}
+.footer-p {
+  color: rgb(99, 97, 97);
+  font-size: small;
+}
+.footer-2-in {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+.section-5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.sectionimg {
+  width: 172px;
+  height: 225px;
+}
+.div-1:hover {
+  width: 215px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.673);
+}
+.footer-3-img {
+  height: 30px;
+  width: 30px;
+}
+.icon-img {
+  margin-top: 15px;
+}
+.footer-img-icon {
+  margin-top: 30px;
+}
