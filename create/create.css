@@ -2,8 +2,91 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: aliceblue;
 }
+ul,
+.icon-name {
+  display: flex;
+  gap: 25px;
+  margin-right: 35px;
+}
+li {
+  list-style: none;
+}
+li a:hover {
+  border-bottom: 4px solid rgb(248, 4, 175);
+}
 
-.input {
+li a,
+.profile {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.726);
+  font-weight: bold;
+}
+sup {
+  font-size: 10px;
+  font-weight: bolder;
+  color: purple;
+  animation: 3s color ease-in-out;
+}
+@keyframes color {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: purple;
+  }
+}
+.input input {
+  height: 45px;
+  background-color: whitesmoke;
+  border-style: none;
+  width: 500px;
+}
+.logo-1 {
+  height: 50px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+
+header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -15px;
+
+  height: 80px;
+}
+.input input:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
+}
+
+.icon-name a:hover {
+  color: rgb(227, 10, 209);
+}
+.icon {
+  display: flex;
+  width: 200px;
+  gap: 55px;
+  justify-content: center;
+}
+.user {
+  height: 20px;
+  width: 20px;
+}
+.like {
+  height: 20px;
+  width: 20px;
+}
+.bag {
+  height: 20px;
+  width: 20px;
+}
+.input-in {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -27,6 +110,7 @@ h1 {
 .main {
   background-color: white;
   padding: 25px;
+  margin-top: -75px;
   border-radius: 15px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.452);
 }

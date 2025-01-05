@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  width: 100vw;
+}
+.main {
+  background-color: antiquewhite;
+
+  width: 100vw;
+}
+.logo-1 {
+  height: 50px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+
+header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.index {
+  color: rgb(81, 79, 79);
+  text-decoration: none;
+}
+.fusion {
+  font-size: small;
+  margin-top: 5px;
+}
+.uppar {
+  margin-left: 15px;
+  margin-top: 15px;
+
+  width: 300px;
+}
+.fusion-2 {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.in {
+  color: red;
+  font-size: 15px;
+  margin-top: 35px;
+}
+.filter-in {
+  margin-top: 15px;
+  font-size: 19px;
+}
+.name-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+span {
+  color: red;
+  margin-left: 35%;
+  font-size: 14px;
+}
+.span {
+  text-decoration: none;
+}
+ul,
+.icon-name {
+  display: flex;
+  gap: 25px;
+  margin-right: 35px;
+}
+li {
+  list-style: none;
+}
+li a:hover {
+  border-bottom: 4px solid rgb(248, 4, 175);
+}
+
+li a,
+.profile {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.726);
+  font-weight: bold;
+}
+sup {
+  font-size: 10px;
+  font-weight: bolder;
+  color: purple;
+  animation: 3s color ease-in-out;
+}
+@keyframes color {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: purple;
+  }
+}
+.input input {
+  height: 45px;
+  background-color: whitesmoke;
+  border-style: none;
+  width: 500px;
+}
+.input input:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
+}
+
+.icon-name a:hover {
+  color: rgb(227, 10, 209);
+}
+.icon {
+  display: flex;
+  width: 200px;
+  gap: 55px;
+  justify-content: center;
+}
+.user {
+  height: 20px;
+  width: 20px;
+}
+.like {
+  height: 20px;
+  width: 20px;
+}
+.bag {
+  height: 20px;
+  width: 20px;
+}
+.sections {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-top: 80px;
+  width: 100vw;
+}
+.section-1 {
+  background-color: white;
+
+  height: 1000px;
+  width: 20vw;
+}
+.brands {
+  margin-top: 35px;
+}
+.brand-name {
+  color: red;
+  margin-bottom: 30px;
+}
+
+.section-2 {
+  background-color: whitesmoke;
+  width: 100%;
+
+  height: 1000px;
+
+  display: flex;
+  justify-content: center;
+}
+.div-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  background-color: rgb(253, 12, 76);
+  width: 200px;
+}
+.div-wear {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wear {
+  font-size: 20px;
+  color: rgb(233, 227, 227);
+}
+.wear-heading {
+  font-weight: bold;
+  color: yellow;
+  font-size: 25px;
+}
+.jacket {
+  text-decoration: none;
+}
+.divs-in {
+  display: flex;
+  gap: 25px;
+}
+.divs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  width: 90%;
+  margin-top: 30px;
+}
+.div-1-img {
+  height: 180px;
+  margin-top: 10px;
+  width: 180px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+
+  margin-top: 80px;
+  color: rgba(0, 0, 0, 0.821);
+  justify-content: center;
+
+  gap: 25px;
+}
+.footer-p {
+  color: rgb(99, 97, 97);
+  font-size: small;
+}
+.footer-2-in {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+.footer-3-img {
+  height: 30px;
+  width: 30px;
+}
+.icon-img {
+  margin-top: 15px;
+}
+.footer-img-icon {
+  margin-top: 30px;
+}
+.price-range {
+  background-color: red;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+.category-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+input[type="range"] {
+  -webkit-appearance: none; /* Remove default appearance */
+  appearance: none;
+
+  height: 10px;
+
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: orange; /* Thumb color red */
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.price {
+  color: red;
+}
+.color {
+  color: red;
+  margin-top: 30px;
+}
+#red {
+  border-radius: 100%;
+
+  width: 35px;
+  border-style: none;
+}
+.colors {
+  display: flex;
+  margin-top: 15px;
+  gap: 5px;
+  margin-bottom: 35px;
+}
